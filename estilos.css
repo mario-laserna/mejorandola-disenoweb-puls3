@@ -6,7 +6,7 @@ body
 {
 	background: #EFEFEF;
 	color: #4C4C4C;
-	font-family: "Ubuntu Condensed", Arial;
+	font-family: "PT Sans", Arial;
 	font-size: 16px;
 	margin: 0;
 }
@@ -94,6 +94,14 @@ nav #publicar_nav a
 {
 	margin: 1em;
 }
+#contenido .datos_item .tag_item
+{
+	background: #22BCE0;
+	border-radius: 0.5em;
+	color: white;
+	padding: 0.2em 0.5em;
+	text-decoration: none;
+}
 #contenido .item 
 {
 	background: white;
@@ -116,17 +124,10 @@ nav #publicar_nav a
 {
 	width: 96px;
 }
-#contenido .item .datos_item .tag_item
-{
-	background: #22BCE0;
-	border-radius: 0.5em;
-	color: white;
-	padding: 0.2em 0.5em;
-	text-decoration: none;
-}
 #contenido .item .titulo_item
 {
-	font-size: 1rem;
+	font-size: 1em;
+	font-style: italic;
 	padding: 0.5em 0.5em 0;
 }
 #contenido .item .titulo_item a
@@ -137,7 +138,6 @@ nav #publicar_nav a
 #contenido .item .votacion
 {
 	background: white;
-	/*border: 2px solid red;*/
 	border-radius: 0 0 0.5em 0.5em;
 	margin: 3px 0 0 0;
 	padding: 0.5em 0;
